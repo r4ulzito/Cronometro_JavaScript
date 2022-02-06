@@ -20,6 +20,9 @@ function pause() {
 function _stop() {
   watchText.innerText = "00:00:00";
   clearInterval(interval);
+  hr = 0;
+  min= 0;
+  sec=0;
 }
 
 function twoDigits(digit) {
